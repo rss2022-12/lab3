@@ -1,0 +1,6 @@
+scan_topic: "/scan"
+driving_command: "/vesc/high_level/ackermann_cmd_mux/output"
+safety_topic: "/vesc/low_level/ackermann_cmd_mux/input/safety"
+drive_topic: "/vesc/ackermann_cmd_mux/input/navigation"
+velocity: 0.05
+side: -1

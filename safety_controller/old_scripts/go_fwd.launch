@@ -1,0 +1,6 @@
+<launch>
+  <!-- Launch the wall follower with parameters -->
+  <node pkg="safety_controller" name="go_fwd" type="go_fwd.py" output="screen">
+	<rosparam command="load" file="$(find safety_controller)/params.yaml"/>
+  </node>
+</launch>
